@@ -1,0 +1,42 @@
+---
+---
+
+<footer class="text-sm leading-[1.75] mb-4">
+  <div>
+    <p><strong>Want to learn more? Say hey to <a href="mailto:hey@recrush.io">hey@recrush.io</a> .</strong></p>
+    <i>Copyright © 2023 <a href="https://recrush.io/" class="hover:underline">Recrush I/O</a>. All Rights Reserved.</i>
+  </div>
+</footer>
+
+
+<style>
+  footer {
+    grid-area: footer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gradient-link {
+    position: relative;
+    box-decoration-break: clone;
+    text-decoration: none;
+  }
+
+  .gradient-link:hover:after {
+    transform: translateZ(0) scale(1);
+  }
+
+  .gradient-link:after {
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    content: "";
+    height: 2px;
+    position: absolute;
+    transform: translateZ(0) scaleX(0);
+    transform-origin: left center;
+    transition: all 0.15s ease-in-out;
+  }
+</style>

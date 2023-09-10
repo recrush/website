@@ -1,0 +1,92 @@
+---
+---
+
+<section class="mt-5">
+    <div>
+        <p class="mb-1 text-center">
+            Keep up with us on <a
+                href={"https://github.com/recrush"}
+                target="_blank">GitHub</a
+            > and subscribe to our newsletter using the below form. ⬇
+        </p>
+        <form
+            class="form-inline mb-5"
+            action="https://world.hey.com/recrush/subscribers"
+            accept-charset="UTF-8"
+            data-remote="true"
+            method="post"
+            target="_blank"
+        >
+            <input
+                type="email"
+                name="subscriber[email_address]"
+                id="subscriber_email_address"
+                placeholder=" Enter your email. Powered by HEY. "
+                required=""
+            />
+            <button type="submit" value="Subscribe" data-wait="Please wait..."
+                >SUBSCRIBE</button
+            >
+        </form>
+    </div>
+</section>
+
+<style>
+    form {
+        grid-area: form;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-inline {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+    }
+
+    .form-inline label {
+        margin: 5px 5px 5px 0;
+    }
+
+    .form-inline input {
+        vertical-align: middle;
+        width: 50%;
+        padding: 8px;
+        background-color: #fff;
+        border: 1px solid #020202;
+        border-radius: 30px 0px 00px 30px;
+    }
+
+    .form-inline button {
+        padding: 8px 20px;
+        background-color: blueviolet;
+        border: 1px solid #020202;
+        color: white;
+        cursor: pointer;
+        border-radius: 0px 30px 30px 0px;
+        font-weight: bold;
+    }
+
+    .form-inline button:hover {
+        background-color: #4b5320;
+    }
+
+    @media (max-width: 800px) {
+        .form-inline input {
+            margin: 10px 0;
+            width: 100%;
+            border-radius: 3px;
+        }
+
+        .form-inline button {
+            border-radius: 3px;
+        }
+
+        .form-inline {
+            flex-direction: column;
+            align-items: stretch;
+        }
+    }
+</style>
