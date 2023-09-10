@@ -6,7 +6,7 @@
 
 Thanks to the templates that powered this website.
 
-- [Blogster](https://github.com/flexdinesh/blogsterg) is a collection of beautiful, accessible and performant blog templates. MIT © [Dinesh Pandiyan](https://github.com/flexdinesh)
+- [Blogster](https://github.com/flexdinesh/blogster) is a collection of beautiful, accessible and performant blog templates. MIT © [Dinesh Pandiyan](https://github.com/flexdinesh)
 
 ## License
 
