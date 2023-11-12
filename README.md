@@ -1,6 +1,6 @@
-# Recrush I/O - Website
+# recrush - Website
 
-[Recrush I/O](https://recrush.io) website, yes, it is now open source.
+[recrush](https://recrush.com) website, yes, it is now open source.
 
 ## Credit
 
@@ -10,4 +10,4 @@ Thanks to the templates that powered this website.
 
 ## License
 
-MIT © [Recrush I/O](https://recrush.io)
+MIT © [recrush](https://recrush.com)
